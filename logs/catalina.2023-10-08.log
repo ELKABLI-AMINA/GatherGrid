@@ -1,0 +1,389 @@
+08-Oct-2023 14:48:15.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.13
+08-Oct-2023 14:48:15.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Aug 23 2023 21:34:59 UTC
+08-Oct-2023 14:48:15.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.13.0
+08-Oct-2023 14:48:15.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+08-Oct-2023 14:48:15.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+08-Oct-2023 14:48:15.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+08-Oct-2023 14:48:15.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11.0.16.1
+08-Oct-2023 14:48:15.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.16.1+1-LTS-1
+08-Oct-2023 14:48:15.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+08-Oct-2023 14:48:15.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 14:48:15.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\apache-tomcat-10.1.13
+08-Oct-2023 14:48:15.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Oct-2023 14:48:15.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+08-Oct-2023 14:48:15.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+08-Oct-2023 14:48:15.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Oct-2023 14:48:15.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Oct-2023 14:48:15.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\apache-tomcat-10.1.13
+08-Oct-2023 14:48:15.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 14:48:15.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Utilisateur\IdeaProjects\GatherGrid\temp
+08-Oct-2023 14:48:15.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\logging.properties
+08-Oct-2023 14:48:15.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Oct-2023 14:48:15.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\lib\idea_rt.jar=52102:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin
+08-Oct-2023 14:48:15.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+08-Oct-2023 14:48:15.645 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [2.0.5] en utilisant APR version [1.7.4]
+08-Oct-2023 14:48:15.652 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 3.0.10 1 Aug 2023]
+08-Oct-2023 14:48:15.986 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 14:48:16.011 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [659] millisecondes
+08-Oct-2023 14:48:16.074 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Oct-2023 14:48:16.075 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.13]
+08-Oct-2023 14:48:16.089 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml]
+08-Oct-2023 14:48:18.292 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Oct-2023 14:48:18.498 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [102] millisecondes
+08-Oct-2023 14:48:18.827 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+08-Oct-2023 14:48:19.125 INFO [main] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.3 (Final)
+08-Oct-2023 14:48:19.562 INFO [main] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Oct-2023 14:48:20.349 INFO [main] org.jboss.weld.environment.se.WeldContainer.fireContainerInitializedEvent WELD-ENV-002003: Weld SE container ab829193-932e-420c-b3b8-29933c720a4a initialized
+08-Oct-2023 14:48:20.558 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml] a pris [4 469] ms
+08-Oct-2023 14:48:20.563 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 14:48:20.582 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [4570] millisecondes
+08-Oct-2023 15:04:59.131 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+08-Oct-2023 15:04:59.220 INFO [Thread-1] org.jboss.weld.environment.se.WeldContainer.shutdown WELD-ENV-002001: Weld SE container ab829193-932e-420c-b3b8-29933c720a4a shut down
+08-Oct-2023 15:04:59.399 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+08-Oct-2023 15:04:59.428 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:04:59.444 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:05:03.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.13
+08-Oct-2023 15:05:03.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Aug 23 2023 21:34:59 UTC
+08-Oct-2023 15:05:03.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.13.0
+08-Oct-2023 15:05:03.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+08-Oct-2023 15:05:03.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+08-Oct-2023 15:05:03.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+08-Oct-2023 15:05:03.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11.0.16.1
+08-Oct-2023 15:05:03.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.16.1+1-LTS-1
+08-Oct-2023 15:05:03.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+08-Oct-2023 15:05:03.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:05:03.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\apache-tomcat-10.1.13
+08-Oct-2023 15:05:03.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Oct-2023 15:05:03.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+08-Oct-2023 15:05:03.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+08-Oct-2023 15:05:03.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Oct-2023 15:05:03.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Oct-2023 15:05:03.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\apache-tomcat-10.1.13
+08-Oct-2023 15:05:03.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:05:03.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Utilisateur\IdeaProjects\GatherGrid\temp
+08-Oct-2023 15:05:03.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\logging.properties
+08-Oct-2023 15:05:03.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Oct-2023 15:05:03.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\lib\idea_rt.jar=51659:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin
+08-Oct-2023 15:05:03.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+08-Oct-2023 15:05:03.650 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [2.0.5] en utilisant APR version [1.7.4]
+08-Oct-2023 15:05:03.656 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 3.0.10 1 Aug 2023]
+08-Oct-2023 15:05:03.986 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:05:04.012 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [672] millisecondes
+08-Oct-2023 15:05:04.068 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Oct-2023 15:05:04.068 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.13]
+08-Oct-2023 15:05:04.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml]
+08-Oct-2023 15:05:06.134 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Oct-2023 15:05:06.622 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+08-Oct-2023 15:05:06.885 INFO [main] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.3 (Final)
+08-Oct-2023 15:05:07.333 INFO [main] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Oct-2023 15:05:08.081 INFO [main] org.jboss.weld.environment.se.WeldContainer.fireContainerInitializedEvent WELD-ENV-002003: Weld SE container d0158053-51d8-4c5c-afff-b65edbe8b9d6 initialized
+08-Oct-2023 15:05:08.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml] a pris [4 182] ms
+08-Oct-2023 15:05:08.269 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:05:08.291 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [4277] millisecondes
+08-Oct-2023 15:07:57.086 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+08-Oct-2023 15:07:57.131 INFO [Thread-1] org.jboss.weld.environment.se.WeldContainer.shutdown WELD-ENV-002001: Weld SE container d0158053-51d8-4c5c-afff-b65edbe8b9d6 shut down
+08-Oct-2023 15:07:57.229 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+08-Oct-2023 15:07:57.255 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:07:57.261 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:08:00.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.13
+08-Oct-2023 15:08:00.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Aug 23 2023 21:34:59 UTC
+08-Oct-2023 15:08:00.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.13.0
+08-Oct-2023 15:08:00.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+08-Oct-2023 15:08:00.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+08-Oct-2023 15:08:00.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+08-Oct-2023 15:08:00.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11.0.16.1
+08-Oct-2023 15:08:00.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.16.1+1-LTS-1
+08-Oct-2023 15:08:00.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+08-Oct-2023 15:08:00.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:08:00.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\apache-tomcat-10.1.13
+08-Oct-2023 15:08:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Oct-2023 15:08:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+08-Oct-2023 15:08:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+08-Oct-2023 15:08:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Oct-2023 15:08:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Oct-2023 15:08:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\apache-tomcat-10.1.13
+08-Oct-2023 15:08:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:08:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Utilisateur\IdeaProjects\GatherGrid\temp
+08-Oct-2023 15:08:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\logging.properties
+08-Oct-2023 15:08:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Oct-2023 15:08:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\lib\idea_rt.jar=51747:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin
+08-Oct-2023 15:08:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+08-Oct-2023 15:08:00.924 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [2.0.5] en utilisant APR version [1.7.4]
+08-Oct-2023 15:08:00.931 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 3.0.10 1 Aug 2023]
+08-Oct-2023 15:08:01.352 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:08:01.386 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [807] millisecondes
+08-Oct-2023 15:08:01.455 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Oct-2023 15:08:01.455 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.13]
+08-Oct-2023 15:08:01.474 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml]
+08-Oct-2023 15:08:03.809 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Oct-2023 15:08:04.351 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+08-Oct-2023 15:08:04.651 INFO [main] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.3 (Final)
+08-Oct-2023 15:08:05.125 INFO [main] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Oct-2023 15:08:05.924 INFO [main] org.jboss.weld.environment.se.WeldContainer.fireContainerInitializedEvent WELD-ENV-002003: Weld SE container a885f75a-0de2-401e-a249-c1eb93d1bacf initialized
+08-Oct-2023 15:08:06.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml] a pris [4 706] ms
+08-Oct-2023 15:08:06.186 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:08:06.203 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [4817] millisecondes
+08-Oct-2023 15:08:25.227 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+08-Oct-2023 15:08:25.266 INFO [Thread-1] org.jboss.weld.environment.se.WeldContainer.shutdown WELD-ENV-002001: Weld SE container a885f75a-0de2-401e-a249-c1eb93d1bacf shut down
+08-Oct-2023 15:08:25.353 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+08-Oct-2023 15:08:25.371 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:08:25.389 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:08:27.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.13
+08-Oct-2023 15:08:27.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Aug 23 2023 21:34:59 UTC
+08-Oct-2023 15:08:27.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.13.0
+08-Oct-2023 15:08:27.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+08-Oct-2023 15:08:27.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+08-Oct-2023 15:08:27.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+08-Oct-2023 15:08:27.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11.0.16.1
+08-Oct-2023 15:08:27.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.16.1+1-LTS-1
+08-Oct-2023 15:08:27.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+08-Oct-2023 15:08:27.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:08:27.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\apache-tomcat-10.1.13
+08-Oct-2023 15:08:27.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Oct-2023 15:08:27.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+08-Oct-2023 15:08:27.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+08-Oct-2023 15:08:27.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Oct-2023 15:08:27.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Oct-2023 15:08:27.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\apache-tomcat-10.1.13
+08-Oct-2023 15:08:27.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:08:27.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Utilisateur\IdeaProjects\GatherGrid\temp
+08-Oct-2023 15:08:27.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\logging.properties
+08-Oct-2023 15:08:27.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Oct-2023 15:08:27.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\lib\idea_rt.jar=51791:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin
+08-Oct-2023 15:08:27.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+08-Oct-2023 15:08:27.745 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [2.0.5] en utilisant APR version [1.7.4]
+08-Oct-2023 15:08:27.750 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 3.0.10 1 Aug 2023]
+08-Oct-2023 15:08:28.152 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:08:28.177 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [701] millisecondes
+08-Oct-2023 15:08:28.235 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Oct-2023 15:08:28.236 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.13]
+08-Oct-2023 15:08:28.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml]
+08-Oct-2023 15:08:30.270 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Oct-2023 15:08:30.503 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [132] millisecondes
+08-Oct-2023 15:08:31.032 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+08-Oct-2023 15:08:31.418 INFO [main] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.3 (Final)
+08-Oct-2023 15:08:31.974 INFO [main] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Oct-2023 15:08:32.866 INFO [main] org.jboss.weld.environment.se.WeldContainer.fireContainerInitializedEvent WELD-ENV-002003: Weld SE container 85e77de2-cb72-4caf-9cac-c6e4cbed888f initialized
+08-Oct-2023 15:08:33.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml] a pris [4 920] ms
+08-Oct-2023 15:08:33.175 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:08:33.193 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [5015] millisecondes
+08-Oct-2023 15:08:58.651 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+08-Oct-2023 15:08:58.684 INFO [Thread-1] org.jboss.weld.environment.se.WeldContainer.shutdown WELD-ENV-002001: Weld SE container 85e77de2-cb72-4caf-9cac-c6e4cbed888f shut down
+08-Oct-2023 15:08:58.770 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+08-Oct-2023 15:08:58.787 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:08:58.804 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:09:38.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.13
+08-Oct-2023 15:09:38.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Aug 23 2023 21:34:59 UTC
+08-Oct-2023 15:09:38.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.13.0
+08-Oct-2023 15:09:38.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+08-Oct-2023 15:09:38.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+08-Oct-2023 15:09:38.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+08-Oct-2023 15:09:38.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11.0.16.1
+08-Oct-2023 15:09:38.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.16.1+1-LTS-1
+08-Oct-2023 15:09:38.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+08-Oct-2023 15:09:38.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:09:38.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\apache-tomcat-10.1.13
+08-Oct-2023 15:09:38.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Oct-2023 15:09:38.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+08-Oct-2023 15:09:38.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+08-Oct-2023 15:09:38.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Oct-2023 15:09:38.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Oct-2023 15:09:38.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\apache-tomcat-10.1.13
+08-Oct-2023 15:09:38.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:09:38.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Utilisateur\IdeaProjects\GatherGrid\temp
+08-Oct-2023 15:09:38.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\logging.properties
+08-Oct-2023 15:09:38.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Oct-2023 15:09:38.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\lib\idea_rt.jar=51901:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin
+08-Oct-2023 15:09:38.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+08-Oct-2023 15:09:38.245 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [2.0.5] en utilisant APR version [1.7.4]
+08-Oct-2023 15:09:38.251 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 3.0.10 1 Aug 2023]
+08-Oct-2023 15:09:38.678 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:09:38.704 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [783] millisecondes
+08-Oct-2023 15:09:38.769 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Oct-2023 15:09:38.769 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.13]
+08-Oct-2023 15:09:38.785 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml]
+08-Oct-2023 15:09:40.913 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Oct-2023 15:09:41.113 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [103] millisecondes
+08-Oct-2023 15:09:41.435 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+08-Oct-2023 15:09:41.728 INFO [main] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.3 (Final)
+08-Oct-2023 15:09:42.184 INFO [main] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Oct-2023 15:09:43.044 INFO [main] org.jboss.weld.environment.se.WeldContainer.fireContainerInitializedEvent WELD-ENV-002003: Weld SE container c5344385-1df8-4f0e-b2d4-a81f1931e8e2 initialized
+08-Oct-2023 15:09:43.233 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml] a pris [4 448] ms
+08-Oct-2023 15:09:43.239 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:09:43.268 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [4563] millisecondes
+08-Oct-2023 15:19:53.224 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+08-Oct-2023 15:19:53.269 INFO [Thread-1] org.jboss.weld.environment.se.WeldContainer.shutdown WELD-ENV-002001: Weld SE container c5344385-1df8-4f0e-b2d4-a81f1931e8e2 shut down
+08-Oct-2023 15:19:53.360 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+08-Oct-2023 15:19:53.403 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:19:53.420 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:19:57.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.13
+08-Oct-2023 15:19:57.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Aug 23 2023 21:34:59 UTC
+08-Oct-2023 15:19:57.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.13.0
+08-Oct-2023 15:19:57.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+08-Oct-2023 15:19:57.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+08-Oct-2023 15:19:57.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+08-Oct-2023 15:19:57.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11.0.16.1
+08-Oct-2023 15:19:57.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.16.1+1-LTS-1
+08-Oct-2023 15:19:57.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+08-Oct-2023 15:19:57.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:19:57.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\apache-tomcat-10.1.13
+08-Oct-2023 15:19:57.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Oct-2023 15:19:57.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+08-Oct-2023 15:19:57.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+08-Oct-2023 15:19:57.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Oct-2023 15:19:57.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Oct-2023 15:19:57.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\apache-tomcat-10.1.13
+08-Oct-2023 15:19:57.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:19:57.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Utilisateur\IdeaProjects\GatherGrid\temp
+08-Oct-2023 15:19:57.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\logging.properties
+08-Oct-2023 15:19:57.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Oct-2023 15:19:57.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\lib\idea_rt.jar=51949:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin
+08-Oct-2023 15:19:57.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+08-Oct-2023 15:19:57.165 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [2.0.5] en utilisant APR version [1.7.4]
+08-Oct-2023 15:19:57.170 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 3.0.10 1 Aug 2023]
+08-Oct-2023 15:19:57.511 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:19:57.549 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [692] millisecondes
+08-Oct-2023 15:19:57.620 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Oct-2023 15:19:57.620 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.13]
+08-Oct-2023 15:19:57.638 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml]
+08-Oct-2023 15:19:59.910 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Oct-2023 15:20:00.117 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [104] millisecondes
+08-Oct-2023 15:20:00.462 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+08-Oct-2023 15:20:00.782 INFO [main] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.3 (Final)
+08-Oct-2023 15:20:01.407 INFO [main] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Oct-2023 15:20:02.289 INFO [main] org.jboss.weld.environment.se.WeldContainer.fireContainerInitializedEvent WELD-ENV-002003: Weld SE container 709ebc49-934a-4c82-a6f2-c449af41acfd initialized
+08-Oct-2023 15:20:02.471 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml] a pris [4 832] ms
+08-Oct-2023 15:20:02.476 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:20:02.494 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [4945] millisecondes
+08-Oct-2023 15:20:43.417 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+08-Oct-2023 15:20:43.464 INFO [Thread-1] org.jboss.weld.environment.se.WeldContainer.shutdown WELD-ENV-002001: Weld SE container 709ebc49-934a-4c82-a6f2-c449af41acfd shut down
+08-Oct-2023 15:20:43.548 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+08-Oct-2023 15:20:43.569 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:20:43.592 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:20:46.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.13
+08-Oct-2023 15:20:46.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Aug 23 2023 21:34:59 UTC
+08-Oct-2023 15:20:46.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.13.0
+08-Oct-2023 15:20:46.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+08-Oct-2023 15:20:46.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+08-Oct-2023 15:20:46.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+08-Oct-2023 15:20:46.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11.0.16.1
+08-Oct-2023 15:20:46.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.16.1+1-LTS-1
+08-Oct-2023 15:20:46.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+08-Oct-2023 15:20:46.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:20:46.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\apache-tomcat-10.1.13
+08-Oct-2023 15:20:46.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Oct-2023 15:20:46.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+08-Oct-2023 15:20:46.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+08-Oct-2023 15:20:46.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Oct-2023 15:20:46.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Oct-2023 15:20:46.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\apache-tomcat-10.1.13
+08-Oct-2023 15:20:46.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:20:46.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Utilisateur\IdeaProjects\GatherGrid\temp
+08-Oct-2023 15:20:46.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\logging.properties
+08-Oct-2023 15:20:46.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Oct-2023 15:20:46.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\lib\idea_rt.jar=51971:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin
+08-Oct-2023 15:20:46.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+08-Oct-2023 15:20:46.987 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [2.0.5] en utilisant APR version [1.7.4]
+08-Oct-2023 15:20:46.992 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 3.0.10 1 Aug 2023]
+08-Oct-2023 15:20:47.360 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:20:47.394 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [729] millisecondes
+08-Oct-2023 15:20:47.471 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Oct-2023 15:20:47.471 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.13]
+08-Oct-2023 15:20:47.487 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml]
+08-Oct-2023 15:20:49.927 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Oct-2023 15:20:50.278 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [164] millisecondes
+08-Oct-2023 15:20:50.639 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+08-Oct-2023 15:20:50.999 INFO [main] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.3 (Final)
+08-Oct-2023 15:20:51.547 INFO [main] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Oct-2023 15:20:52.391 INFO [main] org.jboss.weld.environment.se.WeldContainer.fireContainerInitializedEvent WELD-ENV-002003: Weld SE container bee2aebf-8ed4-484d-be99-b461f171e0ff initialized
+08-Oct-2023 15:20:52.677 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml] a pris [5 189] ms
+08-Oct-2023 15:20:52.683 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:20:52.713 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [5318] millisecondes
+08-Oct-2023 15:24:50.593 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+08-Oct-2023 15:24:50.631 INFO [Thread-1] org.jboss.weld.environment.se.WeldContainer.shutdown WELD-ENV-002001: Weld SE container bee2aebf-8ed4-484d-be99-b461f171e0ff shut down
+08-Oct-2023 15:24:50.710 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+08-Oct-2023 15:24:50.733 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:24:50.748 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:24:54.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.13
+08-Oct-2023 15:24:54.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Aug 23 2023 21:34:59 UTC
+08-Oct-2023 15:24:54.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.13.0
+08-Oct-2023 15:24:54.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+08-Oct-2023 15:24:54.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+08-Oct-2023 15:24:54.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+08-Oct-2023 15:24:54.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11.0.16.1
+08-Oct-2023 15:24:54.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.16.1+1-LTS-1
+08-Oct-2023 15:24:54.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+08-Oct-2023 15:24:54.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:24:54.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\apache-tomcat-10.1.13
+08-Oct-2023 15:24:54.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Oct-2023 15:24:54.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+08-Oct-2023 15:24:54.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+08-Oct-2023 15:24:54.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Oct-2023 15:24:54.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Oct-2023 15:24:54.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\apache-tomcat-10.1.13
+08-Oct-2023 15:24:54.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:24:54.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Utilisateur\IdeaProjects\GatherGrid\temp
+08-Oct-2023 15:24:54.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\logging.properties
+08-Oct-2023 15:24:54.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Oct-2023 15:24:54.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\lib\idea_rt.jar=56456:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin
+08-Oct-2023 15:24:54.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+08-Oct-2023 15:24:54.999 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [2.0.5] en utilisant APR version [1.7.4]
+08-Oct-2023 15:24:55.005 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 3.0.10 1 Aug 2023]
+08-Oct-2023 15:24:55.375 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:24:55.401 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [705] millisecondes
+08-Oct-2023 15:24:55.457 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Oct-2023 15:24:55.457 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.13]
+08-Oct-2023 15:24:55.471 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml]
+08-Oct-2023 15:24:57.583 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Oct-2023 15:24:57.812 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [110] millisecondes
+08-Oct-2023 15:24:58.140 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+08-Oct-2023 15:24:58.454 INFO [main] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.3 (Final)
+08-Oct-2023 15:24:58.993 INFO [main] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Oct-2023 15:24:59.822 INFO [main] org.jboss.weld.environment.se.WeldContainer.fireContainerInitializedEvent WELD-ENV-002003: Weld SE container 6faecab5-16c8-4d2e-bd26-ba528280758d initialized
+08-Oct-2023 15:25:00.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml] a pris [4 552] ms
+08-Oct-2023 15:25:00.028 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:25:00.049 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [4647] millisecondes
+08-Oct-2023 15:26:02.657 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+08-Oct-2023 15:26:02.699 INFO [Thread-1] org.jboss.weld.environment.se.WeldContainer.shutdown WELD-ENV-002001: Weld SE container 6faecab5-16c8-4d2e-bd26-ba528280758d shut down
+08-Oct-2023 15:26:02.776 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+08-Oct-2023 15:26:02.795 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:26:02.808 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:26:07.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.13
+08-Oct-2023 15:26:07.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Aug 23 2023 21:34:59 UTC
+08-Oct-2023 15:26:07.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.13.0
+08-Oct-2023 15:26:07.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+08-Oct-2023 15:26:07.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+08-Oct-2023 15:26:07.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+08-Oct-2023 15:26:07.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11.0.16.1
+08-Oct-2023 15:26:07.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.16.1+1-LTS-1
+08-Oct-2023 15:26:07.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+08-Oct-2023 15:26:07.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:26:07.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\apache-tomcat-10.1.13
+08-Oct-2023 15:26:07.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Oct-2023 15:26:07.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+08-Oct-2023 15:26:07.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+08-Oct-2023 15:26:07.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Oct-2023 15:26:07.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Oct-2023 15:26:07.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\apache-tomcat-10.1.13
+08-Oct-2023 15:26:07.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Utilisateur\IdeaProjects\GatherGrid
+08-Oct-2023 15:26:07.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Utilisateur\IdeaProjects\GatherGrid\temp
+08-Oct-2023 15:26:07.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\logging.properties
+08-Oct-2023 15:26:07.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Oct-2023 15:26:07.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\lib\idea_rt.jar=56467:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin
+08-Oct-2023 15:26:07.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+08-Oct-2023 15:26:07.488 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [2.0.5] en utilisant APR version [1.7.4]
+08-Oct-2023 15:26:07.494 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 3.0.10 1 Aug 2023]
+08-Oct-2023 15:26:07.822 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:26:07.848 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [649] millisecondes
+08-Oct-2023 15:26:07.912 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Oct-2023 15:26:07.913 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.13]
+08-Oct-2023 15:26:07.928 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml]
+08-Oct-2023 15:26:09.996 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+08-Oct-2023 15:26:10.213 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [115] millisecondes
+08-Oct-2023 15:26:10.597 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+08-Oct-2023 15:26:10.900 INFO [main] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.3 (Final)
+08-Oct-2023 15:26:11.385 INFO [main] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Oct-2023 15:26:12.251 INFO [main] org.jboss.weld.environment.se.WeldContainer.fireContainerInitializedEvent WELD-ENV-002003: Weld SE container b63dddec-f287-442a-9f31-bab0477fae76 initialized
+08-Oct-2023 15:26:12.418 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Utilisateur\IdeaProjects\GatherGrid\conf\Catalina\localhost\ROOT.xml] a pris [4 490] ms
+08-Oct-2023 15:26:12.422 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+08-Oct-2023 15:26:12.443 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [4595] millisecondes
