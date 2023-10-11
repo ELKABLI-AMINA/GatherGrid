@@ -7,9 +7,18 @@
 <body>
 <h1>Bienvenu</h1>
 <p> Veuillez entrer votre nom d'utilisateur et votre mot de passe</p>
-<form action="index.html" method="post">
-    <h2>Identification</h2>
-    <hr>
+<a href="/hello" >hello</a>
+
+<form method="post" action="/hello">
+    <input type="text" name="nom">
+
+    <input type="text" name="prénom">
+
+    <input type="text" name="mot_de_passe">
+
+    <input type="text" name="e_mail">
+    <input type="submit" value="ajouter">
+
 </form>
 </body>
 </html>
