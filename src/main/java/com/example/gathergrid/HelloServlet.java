@@ -2,6 +2,8 @@ package com.example.gathergrid;
 
 import com.example.gathergrid.dao.UserDao;
 import com.example.gathergrid.domain.User;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
@@ -11,13 +13,16 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
-@WebServlet(name = "HelloServlet" ,value = "/hello")   //annotation
+@WebServlet(name = "HelloServlet" ,value = "/hello",loadOnStartup = 1)
 public class HelloServlet extends HttpServlet {
 
 
     @Override
     public void init() throws ServletException {
         super.init();
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("my-test");
+        EntityManager entityManager = emf.createEntityManager();
+        entityManager.close();
     }
 
     @Override
@@ -37,7 +42,7 @@ public class HelloServlet extends HttpServlet {
         User utilisateur = new User(nom, prenom, motDePasse, email);
 
         // Créer une instance de votre classe DAO
-        UserDao userDao = new UserDao(Persistence.createEntityManagerFactory("default"));
+        UserDao userDao = new UserDao(Persistence.createEntityManagerFactory("my-test"));
         userDao.save(utilisateur);
 
         resp.sendRedirect("/confirmation.jsp");

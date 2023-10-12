@@ -7,21 +7,20 @@ import java.util.List;
 import java.util.Objects;
 
 @Entity
+
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nom;
-    private String prénom;
+    private String prenom;
     private  String mot_de_passe ;
     private String e_mail;
 
-    @OneToMany
-    List<Event> events = new ArrayList<>();
 
-    public User( String nom, String prénom, String mot_de_passe, String e_mail) {
+    public User( String nom, String prenom, String mot_de_passe, String e_mail) {
         this.nom = nom;
-        this.prénom = prénom;
+        this.prenom = prenom;
         this.mot_de_passe = mot_de_passe;
         this.e_mail = e_mail;
     }
@@ -38,11 +37,11 @@ public class User {
     }
 
     public String getPrénom() {
-        return prénom;
+        return prenom;
     }
 
     public void setPrénom(String prénom) {
-        this.prénom = prénom;
+        this.prenom = prénom;
     }
 
     public String getMot_de_passe() {
@@ -65,7 +64,7 @@ public class User {
         this.id = id;
     }
 
-    @Id
+
     public Long getId() {
         return id;
     }
@@ -75,19 +74,19 @@ public class User {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         User user = (User) o;
-        return Objects.equals(id, user.id) && Objects.equals(nom, user.nom) && Objects.equals(prénom, user.prénom) && Objects.equals(mot_de_passe, user.mot_de_passe) && Objects.equals(e_mail, user.e_mail);
+        return Objects.equals(id, user.id) && Objects.equals(nom, user.nom) && Objects.equals(prenom, user.prenom) && Objects.equals(mot_de_passe, user.mot_de_passe) && Objects.equals(e_mail, user.e_mail);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nom, prénom, mot_de_passe, e_mail);
+        return Objects.hash(id, nom, prenom, mot_de_passe, e_mail);
     }
 
     @Override
     public String toString() {
         return "User{" +
                 ", nom='" + nom + '\'' +
-                ", prénom='" + prénom + '\'' +
+                ", prénom='" + prenom + '\'' +
                 ", mot_de_passe='" + mot_de_passe + '\'' +
                 ", e_mail='" + e_mail + '\'' +
                 '}';

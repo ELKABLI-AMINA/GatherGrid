@@ -3,16 +3,20 @@ package com.example.gathergrid.domain;
 import jakarta.persistence.*;
 
 @Entity
+
 public class Commentaire {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String text;
     private Integer evaluation;
     @ManyToOne
     private User user;
 
-    private Event event;
+    @ManyToOne
+    Event event;
+
+
     public void setId(Long id) {
         this.id = id;
     }

@@ -12,7 +12,7 @@
 <form method="post" action="/hello">
     <input type="text" name="nom">
 
-    <input type="text" name="prénom">
+    <input type="text" name="prenom">
 
     <input type="text" name="mot_de_passe">
 
